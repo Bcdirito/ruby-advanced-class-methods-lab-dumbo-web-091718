@@ -57,5 +57,6 @@ class Song
     split_file = file.split(" - ")
     artist = split_file[0]
     title = split_file[1].gsub(".mp3", "")
+    song = self.create
   end
 end

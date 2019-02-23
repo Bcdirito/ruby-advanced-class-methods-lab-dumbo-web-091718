@@ -43,7 +43,7 @@ class Song
   end
   
   def self.new_from_filename(file)
-    split_file = file.split(/[.-]/
+    split_file = file.split(/[.-]/)
     binding.pry
   end
 end

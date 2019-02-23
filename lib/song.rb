@@ -47,6 +47,6 @@ class Song
     song = Song.create
     song.name = split_file[1]
     song.artist_name = split_file[0]
-    binding.pry
+    @@all << song
   end
 end

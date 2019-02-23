@@ -44,6 +44,7 @@ class Song
   
   def self.new_from_filename(file)
     split_file = file.split(" - ")
+    split_file = 
     binding.pry
     song = self.create
     song.name = split_file[1]

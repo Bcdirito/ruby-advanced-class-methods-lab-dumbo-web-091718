@@ -47,7 +47,7 @@ class Song
     artist = split_file[0]
     title = split_file[1].gsub(".mp3", "")
     song = self.create
-    song.name = split_file[1]
+    song.name = title
     song.artist_name = artist
     @@all << song
     song
